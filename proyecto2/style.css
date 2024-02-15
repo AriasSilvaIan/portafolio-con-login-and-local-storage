@@ -1,0 +1,139 @@
+header{
+    /* display: flex; */
+    display: inline-flex inline-block;
+    margin: 10px  10px;
+    padding: 10px;
+    justify-content: baseline;
+    align-items: center;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+.boton1{
+    border-radius: 12px;
+    border: 3px solid black;
+    text-align: right;
+    float: right;
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.boton1:hover{
+    border-radius: 12px;
+    border: 3px solid black;
+    text-align: right;
+    float: right;
+    height: 33px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 3px 5px red;
+    text-decoration: none;
+}
+.boton2{
+    border-radius: 12px;
+    border: 3px solid black;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-weight: 500px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+.boton2:hover{
+    border-radius: 12px;
+    border: 3px solid black;
+    text-align: right;
+    text-align: center;
+    float: right;
+    height: 33px;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 3px 5px green;
+}
+.verde{
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(40, 84, 11, 0.874);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 20px;
+}
+#tres{
+    color: white;
+    font-size:x-large;
+}
+.rojo1{
+    background-color: red;
+    text-align: center;
+    float: left;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.rojo1 .alebrije{
+    background-position: left;
+    width: 70%;
+    float: left;
+}
+section{
+    align-content: center;
+}
+#letra1{
+    color: white;
+    float: left;
+    text-align: center;
+}
+
+.boton__alebrije{
+    border-radius: 20px;
+    border: 1.5px solid white;
+    color: white;
+    background-color: red;
+    height: 30px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.rojo{
+    background-color: red;
+    text-align: center;
+    float: right;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.alebrije2{
+    background-position: right;
+    width: 30%;
+    height: 30%;
+    float: right;
+}
+.rojo{
+    color: white;
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+.boton__alebrije2{
+    border-radius: 20px;
+    border: 1.5px solid white;
+    color: white;
+    background-color: red;
+    height: 30px;
+    margin-left: 10px;
+    align-items: center;
+}

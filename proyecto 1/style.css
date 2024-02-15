@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2? family= Delicious+Handrawn & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100w;
+    height: auto;
+    background:linear-gradient(90deg,#000000, #2e3a42, #03275e ) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-image: url(./banner-api.jpeg);
+    background-size: contain;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 0 0 15px #ffff00;
+    color: #00ffff;
+    font-family: 'Delicious Handraw', cursive;
+    animation: title 1s infinite;
+}
+
+@keyframes title{
+    50%{
+        text-shadow: 0 0 15px #00ffff;
+        color: #ffff00;
+    }
+}
+
+hr{
+    width: 90%;
+    margin: 1rem;
+}
+
+main{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finder-caracter {
+    width: 30rem;
+    height: 1rem;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: #1c272e;
+    padding: 1rem;
+    color: #ffff;
+    font-family: 'Delicious Handraw', cursive;
+}
+
+.container-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-character {
+    width: 20rem;
+    height: 10rem;
+    background-color: #261b36;
+    border: groove 5px #484444;
+    margin: 1rem;
+    display: flex;
+}
+
+.card-character> img {
+    width: 50%;
+    height: 100%;
+}
+ 
+.card-character> .description-card {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-card > h2 {
+    text-align: center;
+    color: #ffff00;
+    text-shadow:0 0 15px #ffff;
+}
+
+.description-card > p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #00ffff;
+    margin-top: 2rem;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: #03275e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer > a {
+    color: #ffff;
+}
+
+#notfound{
+    font-size: 1.5rem;
+    text-shadow: 0 0 15px #ffff00;
+    color: #ff0000;
+    font-family: 'Delicious Handraw', cursive;
+    animation: title 1s infinite;
+    padding-top: 60px;
+}
+
+/* temporal */
+img{
+    width: 30px;
+}
+
+
+.btn-header {
+    display: inline-block; /* Convertir el enlace en un bloque */
+    font-size: 20px; /* Tamaño del texto */
+    width: 100px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    padding: 5px; /* Espaciado interior del botón */
+    line-height: 30px; /* Alinear verticalmente el texto */
+    text-align: center; /* Alineación del texto */
+    text-shadow: 0 0 10px #ffff00; /* Sombra del texto */
+    color: #00ffff; /* Color del texto */
+    font-family: 'Delicious Handraw', cursive; /* Fuente */
+    background-color: #1c272e; /* Fondo del botón */
+    border: 2px solid #00ffff; /* Borde sólido de 2px con color cyan */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    text-decoration: none; /* Quitar el subrayado del enlace */
+    margin-left: 900px; /* Margen derecho para separarlo del borde */
+}
+
+.btn-header:hover {
+    background-color: #00ffff; /* Cambia el color de fondo al pasar el ratón por encima */
+    color: #261b36; /* Cambia el color del texto */
+} 
+

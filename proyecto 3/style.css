@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: darkred;
+    flex: auto;
+}
+header {
+    background-color: black;
+    color: darkred;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .sith{
+    flex-direction: row;
+    width: 50px;
+    float: right;
+    top: 45px;
+    position: absolute;
+  }
+.introduccion{
+    text-align: justify;
+}
+.dos{
+  border-radius: 25px;
+ margin: 0px;
+ background-color: darkred;
+ color: black;
+ float: left;
+ width: 25%;
+
+}
+.tres{
+  border-radius: 25px;
+    background-color: lightblue;
+    float: right;
+    width: 25%;
+    
+}
+main {
+  background-color: black;
+  color: #fff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.btn-nav {
+  border-radius: 12px;
+    border: 3px solid red;
+    text-align: center;
+    float: right;
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    width: 100px; /* Ancho del botón */
+    height: 30px; /* Altura del botón */
+    padding: 5px; /* Espaciado interior del botón */
+    line-height: 30px
+}
+.btn-nav:hover{
+  border-radius: 12px;
+  border: 3px solid black;
+  text-align: center;
+  float: right;
+  height: 33px;
+  background-color: cyan;
+  color: purple;
+  box-shadow: 5px 3px 5px red;
+  text-decoration: none;
+}
