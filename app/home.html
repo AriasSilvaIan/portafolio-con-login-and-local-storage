@@ -16,7 +16,7 @@
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#proyectos">Proyectos</a></li> <!-- Enlazar a la sección de proyectos -->
           <li><a href="#contacto">Contacto</a></li>
-          <li><a href="./../index.html">logout</a></li>
+          <li><a href="./../login.html" id="logout">logout</a></li>
         </ul>
       </nav>
     </div>
@@ -75,5 +75,14 @@
       <p>Derechos de autor &copy; 2024 Portafolio de Arias Silva Ian Gamaliel</p>
     </div>
   </footer>
+  <script>
+    function imprimirMensajeDespedida(){
+      alert("¡Hasta pronto" + nombreUsuario + "!");
+    }
+    document.getElementById('logout').addEventListener('click', function() {
+      window.location.href = './../login.html';
+      imprimirMensajeDespedida();
+    });
+  </script>
 </body>
 </html>
