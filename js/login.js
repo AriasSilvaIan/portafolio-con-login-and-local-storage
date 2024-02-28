@@ -21,7 +21,7 @@ logInForm.addEventListener('submit', (e) => {
 });
 
 // Ejemplo de cómo guardar un nuevo usuario en localStorage
-const newUser = { name: "Nombre del Usuario", email: "correo@example.com", password: "contraseña" };
+const newUser = { name: name, email: email, password: password };
 const Users = JSON.parse(localStorage.getItem('users')) || [];
 Users.push(newUser);
 localStorage.setItem('users', JSON.stringify(Users));
